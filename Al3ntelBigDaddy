@@ -1,7 +1,149 @@
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Down";
-    Text = "Check discord for info";
-    Icon = "rbxthumb://type=Asset&id=8827463016&w=150&h=150";
-    Duration = 3;
-})
-wait(2) return end
+-- nothing to skid here LOL
+
+local ASSGUI = Instance.new("ScreenGui")
+local ASS = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local frame1 = Instance.new("Frame")
+local frame1_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local aa = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local copy = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+
+--Properties:
+
+ASSGUI.Name = "ASSGUI"
+ASSGUI.Parent = game.CoreGui
+
+ASS.Name = "ASS"
+ASS.Parent = ASSGUI
+ASS.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+ASS.Position = UDim2.new(0.311130583, 0, 0.127559051, 0)
+ASS.Size = UDim2.new(0, 427, 0, 424)
+ASS.Visible = true
+
+UICorner.Parent = ASS
+
+Frame.Parent = ASS
+Frame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame.BorderColor3 = Color3.fromRGB(44, 44, 44)
+Frame.Size = UDim2.new(0, 427, 0, 7)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame_2.BorderColor3 = Color3.fromRGB(44, 44, 44)
+Frame_2.Size = UDim2.new(0, 7, 0, 424)
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame_3.BorderColor3 = Color3.fromRGB(44, 44, 44)
+Frame_3.Position = UDim2.new(1, 0, 0.983490586, 0)
+Frame_3.Size = UDim2.new(0, 420, 0, 7)
+
+Frame_4.Parent = Frame_3
+Frame_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame_4.BorderColor3 = Color3.fromRGB(44, 44, 44)
+Frame_4.Position = UDim2.new(0.980952382, 0, -58.5714302, 0)
+Frame_4.Size = UDim2.new(0, 8, 0, 409)
+
+frame1.Name = "frame1"
+frame1.Parent = ASSGUI
+frame1.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+frame1.BorderColor3 = Color3.fromRGB(67, 67, 67)
+frame1.Position = UDim2.new(0.323673487, 0, 0.154523805, 0)
+frame1.Size = UDim2.new(0, 397, 0, 391)
+
+frame1_2.Name = "frame1"
+frame1_2.Parent = frame1
+frame1_2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+frame1_2.BorderColor3 = Color3.fromRGB(67, 67, 6754)
+frame1_2.Position = UDim2.new(0.036519777, 0, 0.0394343324, 0)
+frame1_2.Size = UDim2.new(0, 366, 0, 352)
+
+TextLabel.Parent = frame1_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.224043712, 0, -0.00284090638, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Roboto
+TextLabel.Text = "Hello, so"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 25.000
+
+TextLabel_2.Parent = frame1_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.232822761, 0, 0.137437031, 0)
+TextLabel_2.Size = UDim2.new(0, 197, 0, 50)
+TextLabel_2.Font = Enum.Font.Roboto
+TextLabel_2.Text = "I lost control on the script so to get updated version"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 18.000
+
+aa.Name = "aa"
+aa.Parent = frame1_2
+aa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aa.BackgroundTransparency = 1.000
+aa.Position = UDim2.new(0.191839159, 0, 0.214141577, 0)
+aa.Size = UDim2.new(0, 197, 0, 50)
+aa.Font = Enum.Font.Roboto
+aa.Text = "you need to join Discord Server and u will find it"
+aa.TextColor3 = Color3.fromRGB(0, 0, 0)
+aa.TextSize = 18.000
+
+TextLabel_3.Parent = frame1_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.230090529, 0, 0.560732484, 0)
+TextLabel_3.Size = UDim2.new(0, 197, 0, 50)
+TextLabel_3.Font = Enum.Font.Roboto
+TextLabel_3.Text = "Click the button down to copy discord invite"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 18.000
+
+ImageLabel.Parent = frame1_2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0395130105, 0, 0.698298693, 0)
+ImageLabel.Size = UDim2.new(0, 87, 0, 79)
+ImageLabel.Image = "rbxassetid://153287088"
+
+copy.Name = "copy"
+copy.Parent = frame1_2
+copy.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+copy.BorderColor3 = Color3.fromRGB(80, 57, 127)
+copy.Position = UDim2.new(0.314207643, 0, 0.735795438, 0)
+copy.Size = UDim2.new(0, 200, 0, 50)
+copy.Font = Enum.Font.SourceSans
+copy.Text = "Click to copy link"
+copy.TextColor3 = Color3.fromRGB(0, 0, 0)
+copy.TextSize = 28.000
+
+ImageLabel_2.Parent = frame1_2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.381043077, 0, 0.334662318, 0)
+ImageLabel_2.Size = UDim2.new(0, 87, 0, 79)
+ImageLabel_2.Image = "rbxassetid://7174764178"
+
+-- Scripts:
+
+local function HUCTKAR_fake_script() -- copy.LocalScript 
+	local script = Instance.new('LocalScript', copy)
+
+	local button = script.Parent
+	
+	local function onButtonActivated()
+		setclipboard(https://discord.gg/xCPkF86fRm)
+	end
+	
+	button.Activated:Connect(onButtonActivated)
+end
+coroutine.wrap(HUCTKAR_fake_script)()
